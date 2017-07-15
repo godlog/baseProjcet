@@ -1,7 +1,6 @@
-## iBase4J项目简介
+## 项目简介
 
-- iBase4J是Java语言的分布式系统架构。 使用Spring整合开源框架。
-- 使用Maven对项目进行模块化管理，提高项目的易开发性、扩展性。
+- 基础功能模块
 - 系统包括5个子系统：公共功能、系统管理Service、系统管理Web、业务Service、业务Web。
 - 公共功能：公共功能(AOP、缓存、基类、调度等等)、公共配置、工具类。
 - 系统管理：包括用户管理、权限管理、数据字典、系统参数管理等等。
@@ -31,49 +30,3 @@
     ● 会话管理：Spring-Session 1.3.0
     ● 日志管理：SLF4J、Log4j2
     ● 前端框架：Angular JS + Bootstrap + Jquery
-
-## 启动说明
-    * 项目依赖activemq、Redis和ZooKeeper服务。
-    * 使用nginx代理UI：修改配置里的UI目录后重启nginx。
-    * 启动命令：
-    	 clean package -P build tomcat7:run-war-only -f pom-sys-service-server.xml
-    	 clean package -P build tomcat7:run-war-only -f pom-sys-web-server.xml
-    * 打包命令：
-    	 clean package -P build -f pom-sys-service-server.xml
-    	 clean package -P build -f pom-sys-service-server.xml
-    * 生产环境打包命令：
-    	 clean package -P product -f pom-sys-service-server.xml
-    	 clean package -P product -f pom-sys-service-server.xml
-    
-## 版权声明
-iBase4J使用 [Apache License 2.0][] 协议.
-
-## 分支说明
-[NoSplit][] 未拆分版本.
-
-[idubbo][] 原始dubbo接口版本,支持事务不支持分布式事务。
-
-develop、master是最新版本，统一dubbo服务接口，一个模块只对外提供一个接口。
-
-springBoot、docker待开发。
-
-## 加入QQ群[538240548](http://shang.qq.com/wpa/qunwpa?idkey=b0fb32618d54e6a7f3cb718cd469b2952c8a968b1ef6f17fd68c83338ae4bce3)
-交流技术问题，下载项目文档和一键启动依赖服务工具。
-
-![QQ群](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/1464169485871.png "QQ群一")
-
-## UI效果图
-
-![登录](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/login.png "登录")
-![主页](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/index.png "主页")
-![接口](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/swagger.png "接口")
-
-## License
-iBase4J is released under version 2.0 of the [Apache License][].
-
-![捐赠](http://git.oschina.net/iBase4J/iBase4J/raw/master/img/contribute.png "捐赠")
-
-[Apache License 2.0]: http://www.apache.org/licenses/LICENSE-2.0
-[NoSplit]: http://git.oschina.net/iBase4J/iBase4J/tree/NoSplit
-[idubbo]: http://git.oschina.net/iBase4J/iBase4J/tree/idubbo
-[Apache License]: http://www.apache.org/licenses/LICENSE-2.0
