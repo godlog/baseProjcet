@@ -2,16 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.ibase4j</groupId>
-		<artifactId>iBase4J</artifactId>
+		<groupId>org.baseProject</groupId>
+		<artifactId>baseProject</artifactId>
 		<version>1.1.0</version>
 	</parent>
-	<artifactId>iBase4J-Biz-Facade</artifactId>
+	<artifactId>base-Biz-Facade</artifactId>
 	
 	<dependencies>
 		<dependency>
-			<groupId>org.ibase4j</groupId>
-			<artifactId>iBase4J-Common</artifactId>
+			<groupId>org.baseProject</groupId>
+			<artifactId>base-Common</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
 				<exclusion>
@@ -19,6 +19,11 @@
 					<artifactId>*</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.baseProject</groupId>
+			<artifactId>base-Common</artifactId>
+			<version>1.1.0</version>
 		</dependency>
 	</dependencies>
 </project>

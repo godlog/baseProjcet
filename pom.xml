@@ -2,21 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.ibase4j</groupId>
-	<artifactId>iBase4J</artifactId>
+	<groupId>org.baseProject</groupId>
+	<artifactId>baseProject</artifactId>
 	<version>1.1.0</version>
-	<name>iBase4J</name>
+	<name>baseProject</name>
 	<packaging>pom</packaging>
 	<url>http://maven.apache.org</url>
 
 	<modules>
-		<module>iBase4J-Common</module>
-		<module>iBase4J-SYS-Service</module>
-		<module>iBase4J-SYS-Facade</module>
-		<module>iBase4J-SYS-Web</module>
-		<module>iBase4J-Biz-Service</module>
-		<module>iBase4J-Biz-Facade</module>
-		<module>iBase4J-Biz-Web</module>
+		<module>base-Common</module>
+		<module>base-SYS-Service</module>
+		<module>base-SYS-Facade</module>
+		<module>base-SYS-Web</module>
+		<module>base-Biz-Service</module>
+		<module>base-Biz-Facade</module>
+		<module>base-Biz-Web</module>
 	</modules>
 
 	<!-- clean package -P build -f pom-sys-service-server.xml -->

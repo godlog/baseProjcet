@@ -2,11 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.ibase4j</groupId>
-		<artifactId>iBase4J</artifactId>
+
+		<groupId>org.baseProject</groupId>
+		<artifactId>baseProject</artifactId>
 		<version>1.1.0</version>
 	</parent>
-	<artifactId>iBase4J-Biz-Web</artifactId>
+	<artifactId>base-Biz-Web</artifactId>
 	<packaging>war</packaging>
 
 	<properties>
@@ -15,8 +16,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.ibase4j</groupId>
-			<artifactId>iBase4J-Common</artifactId>
+			<groupId>org.baseProject</groupId>
+			<artifactId>base-Common</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
 				<exclusion>
@@ -26,8 +27,8 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>org.ibase4j</groupId>
-			<artifactId>iBase4J-SYS-Facade</artifactId>
+			<groupId>org.baseProject</groupId>
+			<artifactId>base-SYS-Facade</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
 				<exclusion>
@@ -37,8 +38,8 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>org.ibase4j</groupId>
-			<artifactId>iBase4J-Biz-Facade</artifactId>
+			<groupId>org.baseProject</groupId>
+			<artifactId>base-Biz-Facade</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
 				<exclusion>

@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>iBase4J-SYS-Service</artifactId>
-	<name>iBase4J-SYS-Service</name>
+	<artifactId>base-SYS-Service</artifactId>
+	<name>base-SYS-Service</name>
 	<url>http://maven.apache.org</url>
 	<packaging>war</packaging>
 
 	<parent>
-		<groupId>org.ibase4j</groupId>
-		<artifactId>iBase4J</artifactId>
+		<groupId>org.baseProject</groupId>
+		<artifactId>baseProject</artifactId>
 		<version>1.1.0</version>
 	</parent>
 
@@ -22,8 +22,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.ibase4j</groupId>
-			<artifactId>iBase4J-Common</artifactId>
+			<groupId>org.baseProject</groupId>
+			<artifactId>base-Common</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
 				<exclusion>
@@ -40,8 +40,8 @@
 			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/taobao-sdk-20170317.jar</systemPath>
 		</dependency>
 		<dependency>
-			<groupId>org.ibase4j</groupId>
-			<artifactId>iBase4J-SYS-Facade</artifactId>
+			<groupId>org.baseProject</groupId>
+			<artifactId>base-SYS-Facade</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
 				<exclusion>
